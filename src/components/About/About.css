@@ -102,15 +102,15 @@
   }
   .about__section .about__photo1 {
     position: absolute;
-    top: 150px;
-    left: 50px;
+    top: 50px;
+    left: 10px !important;
     max-width: 350px;
     z-index: 1;
   }
   .about__section .about__photo2 {
     position: absolute;
     top: 100px;
-    left: 140px;
+    left: 120px;
     max-width: 300px;
   }
   .about__section .about__text {

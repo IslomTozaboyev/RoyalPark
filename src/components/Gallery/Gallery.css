@@ -91,7 +91,7 @@
 @media screen and (max-width: 400px) {
   .gallery__section .gallery__servise {
     position: relative;
-    width: 350px !important;
+    width: 320px !important;
     height: 250px;
   }
 }
