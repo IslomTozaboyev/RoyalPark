@@ -10,7 +10,10 @@
 .header__section ul {
   list-style-type: none;
 }
-.header__section ul li {
+.header__section .home ul {
+  margin-left: 150px !important;
+}
+.header__section .home ul li {
   padding: 0 30px;
 }
 .header__section ul li a {

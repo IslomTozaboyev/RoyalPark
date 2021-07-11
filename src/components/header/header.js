@@ -22,8 +22,8 @@ class Header extends React.Component{
                     <div className="d-flex justify-content-center align-items-center">
                          <img className="rasm" src={logo} alt="rasm" />
                           <h6 className="fw-bold mt-2">Royal Park</h6>
-                <div className="d-flex align-items-center">
-                    <ul className="d-none d-lg-flex align-items-center m-0">
+                <div className="home d-flex align-items-center">
+                    <ul className="d-none d-lg-flex align-items-center m-0 p-0">
                        <li>
                             <a href="#home">Home</a>
                         </li>
@@ -53,7 +53,7 @@ class Header extends React.Component{
                     </button>
                 </div>
                 <Slide direction="down" className={`menu-mobile d-lg-none w-100 ${this.state.hideHeader && "d-none" || ""}`}>
-                <ul className="menu  mt-5">
+                <ul className="menu  mt-5 p-0">
                         <li className="my-4">
                               <a href="#Home"><b>Home</b></a>
                         </li>
