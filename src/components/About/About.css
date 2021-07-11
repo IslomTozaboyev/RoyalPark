@@ -1,0 +1,121 @@
+.about__section {
+  padding-top: 100px;
+  position: relative;
+}
+.about__section .about__photo1 {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  z-index: 1;
+}
+.about__section .about__photo2 {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+.about__section .about__text {
+  padding: 80px 0px;
+  padding-left: 140px;
+}
+.about__section .texth4 {
+  color: rgb(55, 180, 252);
+}
+@media screen and (max-width: 1400px) {
+  .about__section .about__photo1 {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    z-index: 1;
+    width: 500px;
+  }
+  .about__section .about__photo2 {
+    position: absolute;
+    top: 100px;
+    left: 280px;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about__section .about__photo1 {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    width: 500px;
+    z-index: 1;
+  }
+  .about__section .about__photo2 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .about__section {
+    display: grid !important;
+  }
+  .about__section .about__photo1 {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 350px;
+    z-index: 1;
+  }
+  .about__section .about__photo2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 300px;
+  }
+  .about__section .about__text {
+    padding: 50px 0px;
+    padding-left: 420px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .about__section {
+    display: grid !important;
+  }
+  .about__section .about__photo1 {
+    position: absolute;
+    top: 150px;
+    left: -10px;
+    width: 300px;
+    z-index: 1;
+  }
+  .about__section .about__photo2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 220px;
+  }
+  .about__section .about__text {
+    padding: 30px 0px;
+    padding-left: 350px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .about__section {
+    display: grid !important;
+  }
+  .about__section .about__photo1 {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    max-width: 350px;
+    z-index: 1;
+  }
+  .about__section .about__photo2 {
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    max-width: 300px;
+  }
+  .about__section .about__text {
+    padding-top: 240px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+  }
+}

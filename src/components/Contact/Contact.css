@@ -1,0 +1,10 @@
+.contact__section {
+  padding-top: 70px;
+}
+.contact__section .contact__box {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 50px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.171);
+}

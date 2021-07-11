@@ -1,0 +1,36 @@
+.info {
+  padding-top: 100px;
+}
+.info-bg {
+  width: 100%;
+  background: url(../../img/royal.png);
+  background-attachment: fixed;
+}
+.info h3 {
+  color: rgb(57, 145, 245);
+}
+.info h1 {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.info span {
+  color: rgb(57, 145, 245);
+}
+.info .info__flex {
+  padding: 15px 30px;
+  background-color: white;
+  border-radius: 5px;
+  backdrop-filter: blur(15px) !important;
+}
+.button {
+  padding: 10px 20px;
+  background-color: rgb(57, 145, 245);
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(0, 118, 253);
+}

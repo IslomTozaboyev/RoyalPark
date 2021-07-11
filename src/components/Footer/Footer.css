@@ -1,0 +1,26 @@
+.footer ul {
+  list-style-type: none;
+}
+.footer .footer__icon {
+  width: 100px;
+}
+
+.footer .list {
+  margin-top: 80px;
+}
+.footer .list ul li {
+  padding: 15px 0px;
+}
+.footer .list ul li a {
+  text-decoration: none;
+  color: black;
+}
+.footer input {
+  width: 100%;
+  outline: none;
+}
+.footer button {
+  background: #1b75bb;
+  color: white;
+  border: none;
+}

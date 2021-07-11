@@ -1,0 +1,23 @@
+/*=================================== email__section =================================== */
+.email {
+  padding-top: 70px;
+}
+.email input {
+  width: 370px;
+  height: 36px;
+  opacity: 50%;
+  outline: none;
+}
+.email button {
+  background: #1b75bb;
+  color: white;
+  border: none;
+  padding: 6px;
+}
+@media screen and (max-width: 500px) {
+  .email input {
+    width: 220px;
+    height: 36px;
+    opacity: 50%;
+  }
+}
