@@ -9,7 +9,6 @@
 } */
 .header__section ul {
   list-style-type: none;
-  margin-left: 100px !important;
 }
 .header__section ul li {
   padding: 0 30px;
@@ -30,4 +29,7 @@
   border-radius: 10px;
   border: none;
   color: white;
+}
+.menu {
+  text-align: center;
 }
