@@ -45,6 +45,7 @@
   padding: 20px;
   width: 250px;
   text-align: center;
+  border-radius: 10px;
 }
 .gallery__section .gallery__servise .gallery__bottom {
   position: absolute;
@@ -83,15 +84,24 @@
 @media screen and (max-width: 520px) {
   .gallery__section .gallery__servise {
     position: relative;
-    width: 460px !important;
+    width: 440px !important;
     height: 280px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .gallery__section .gallery__servise {
+    position: relative !important;
+    width: 410px !important;
+    height: 250px !important;
   }
 }
 
 @media screen and (max-width: 400px) {
   .gallery__section .gallery__servise {
     position: relative;
-    width: 320px !important;
-    height: 250px;
+    width: 310px !important;
+    max-width: 310px !important;
+    height: 220px !important;
   }
 }
